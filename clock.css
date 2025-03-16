@@ -1,0 +1,130 @@
+.light .clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(8, 8, 8); 
+    color: rgb(255, 255, 255); 
+    border-radius: 10px;
+    letter-spacing: 5px;
+    font-size: 7.5rem;
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 50px;
+}
+
+.light h1 {
+    font-family: "Big Shoulders Inline", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+}
+
+.light .head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.light .head button {
+    height: fit-content;
+    width: fit-content;
+    font-size: 20px;
+    background:none;
+    border: none;
+    color: black;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.light {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.dark {
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.dark .clock {
+    background-color: rgb(255, 255, 255);
+    color: rgb(31, 31, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    font-size: 7.5rem;
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 50px;
+}
+
+.dark h1 {
+    color: aliceblue;
+    font-family: "Big Shoulders Inline", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.dark .head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dark .head button {
+    height: fit-content;
+    width: fit-content;
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: white;
+}
+
+@media (max-width: 1200px) {
+   #clock{
+    width: 500px;
+    height: 300px;
+   }
+}
+@media (max-width: 922px) {
+    #clock{
+     width: 200px;
+     height: 100px;
+    font-size: 3rem;
+
+    }
+ }
+ @media (max-width: 768px) {
+    #clock{
+     width: 300px;
+     height: 200px;
+    font-size: 3rem;
+
+    }
+ }
+ @media (max-width: 576px) {
+    #clock{
+     width: 200px;
+     height: 100px;
+    font-size: 3rem;
+
+    }
+ }
